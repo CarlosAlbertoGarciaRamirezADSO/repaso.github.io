@@ -1,0 +1,43 @@
+:root{
+  --color_navbar:#8B1056;
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+/* .box{
+  max-width: 1024px;
+  margin: 0 auto;
+} */
+
+nav{
+  background-color: var(--color_navbar);
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav img{
+  width: 45px;
+  height: 45px;
+
+}
+.nav__bar{
+  /* background-color: blue; */
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.nav__bar li{
+  list-style: none;
+}
+
+.nav__bar a{
+  color: white;
+  text-decoration: none;
+}
+
