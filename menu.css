@@ -50,7 +50,7 @@ main{
 .main__section1{
   background-color: rgb(219, 179, 128);
   background-image: url(people-2562102_1920\ 1.svg);
-  height: 700px;
+  height: 750px;
 }
 
 
@@ -78,3 +78,62 @@ main{
   color: var(--color_white);
   font-size: 14px;
 }
+
+.main__section2{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-template-rows: repeat(12,100px);
+  background-color: rgb(219, 179, 128);
+  gap: 10px;
+}
+
+.main__section2__title{
+  background-color: aqua; 
+  grid-column: 1/4;
+  grid-area: 2/2/ span 3;
+}
+.main__section2__title{
+  background-color: aqua;
+  grid-column: 3/7;
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main__section2__destacados{
+  grid-column: 3/7;
+  grid-row: 3 / 5;
+  padding: 20px;
+  color: var(--color_white);
+  background-image: url(Group\ 15.svg);
+  border-radius: 20px;
+  background-size: cover;
+}
+.destacados{
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.main__section2__destacados__parrafo{
+  margin-bottom: 30px;
+
+}
+.main__section2__destacados a{
+  color: var(--color_white);
+  font-size: 20px;
+}
+
+.main__section2__title2{
+  background-color: #8B1056;
+  grid-column: 3/7;
+  grid-row: 5/6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main__section__experiencias1{
+  background-color: yellow;
+  grid-column: 3/7;
+  grid-row: 6/8;
+}
+
