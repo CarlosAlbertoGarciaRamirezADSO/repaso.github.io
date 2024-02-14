@@ -17,6 +17,10 @@
   margin: 0 auto;
 } */
 
+html{
+  scroll-behavior: smooth;
+}
+
 nav{
   background-color: var(--color_navbar);
   height: 60px;
