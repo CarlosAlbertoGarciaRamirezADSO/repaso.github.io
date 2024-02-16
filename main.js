@@ -1,6 +1,15 @@
-const menu = document.querySelector(".menu");
-const nav_bar = document.querySelector(".nav__bar");
+const icono_menu = document.querySelector(".icono_menu");
+const menu = document.querySelector("#menure");
 
-menu.addEventListener("click", (() => {
-  nav_bar.classList.toggle("aparecer")
+icono_menu.addEventListener("click", (() => {
+  menure.classList.toggle("active")
+  document.body.classList.toggle('opacity');
+
+  const rutaActual=e.target.getAttribute('src');
+
+  if(rutaActual == 'Frame.svg'){
+    e.target.setAttribute('src','Frame.svg');
+  }else{
+    e.target.setAttribute('src','Frame.svg');
+  }
 }))
